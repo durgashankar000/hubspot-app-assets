@@ -1,0 +1,23 @@
+{
+  "name": "my_learning_object",
+  "labels": {
+    "singular": "Learning Object",
+    "plural": "Learning Objects"
+  },
+  "primaryDisplayProperty": "name",
+  "properties": [
+    {
+      "name": "name",
+      "label": "Name",
+      "type": "string",
+      "fieldType": "text"
+    },
+    {
+      "name": "description",
+      "label": "Description", 
+      "type": "string",
+      "fieldType": "textarea"
+    }
+  ],
+  "associatedObjects": ["CONTACT"]
+}
